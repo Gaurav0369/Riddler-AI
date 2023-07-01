@@ -1,7 +1,7 @@
 import openai
 import gradio as gr
 
-openai.api_key = "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"
+openai.api_key = "your api key"
 
 messages = [
     {"role": "system", "content": "Your name is Riddler and we are going to play a game of riddles on a topic of my choice dont provide a topic on your own until asked. We will both ask each a riddle one by one."},
